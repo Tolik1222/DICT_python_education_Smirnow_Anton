@@ -1,2 +1,3 @@
 print("Python education")
-git
+# new string
+pring("Hello DICT")
