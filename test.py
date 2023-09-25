@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 print("Python education")
 # new string
-pring("Hello DICT")
+print("Hello DICT!")
