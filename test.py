@@ -1,4 +1,2 @@
-print("Python")
-# new string
-print("DICT")
-print("Hello DICT!")
+print("Python education")
+git
