@@ -16,3 +16,9 @@ remainder7 = int(input())
 your_age = (remainder3 * 70 + remainder5 * 21 + remainder7 * 15) % 105
 
 print(f"Your age is {your_age}; that's a good time to start programming!")
+
+print("Now I will prove to you that I can count to any number you want")
+
+iterations_count = int(input())
+for i in range(iterations_count + 1):
+    print(f"{i}!")
