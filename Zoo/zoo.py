@@ -123,3 +123,12 @@ animals = [camel, lion, deer, goose, bat, rabbit]
 
 while True:
     print("Please enter the number of the habitat you would like to view:")
+    user_input = input("> ")
+    if user_input == 'q':
+        print("See you later!")
+        break
+    elif user_input.isdigit() and 0 <= int(user_input) <= 5:
+        print(animals[int(user_input)])
+        print("You've reached the end of the program.")
+    else:
+        print("Enter the correct number. Try from 0 to 5.")
