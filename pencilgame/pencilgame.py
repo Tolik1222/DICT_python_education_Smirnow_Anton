@@ -1,4 +1,4 @@
-''' creation of the game "Pencils" '''
+"""creation of the game "Pencils" """
 
 # This program first asks the user for the number of pencils, then for the names of both players, and finally determines who will go first. Displays a graphical representation of the number of pencils and a message about who goes first, has a loop where players take turns removing pencils until 0 pencils remain on the table, validates user input, displays appropriate error messages, and allows the player to choose only the allowable number of pencils, automatically outputs the bot's move (Jack), taking into account the winning strategy, if the bot is in a winning position.
 
