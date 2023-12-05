@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="56dc1464-23c7-4c1f-8c34-a250d31f60d3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      <change beforePath="$PROJECT_DIR$/coffeemachine/coffeemachine.py" beforeDir="false" afterPath="$PROJECT_DIR$/coffeemachine/coffeemachine.py" afterDir="false" />
+>>>>>>> 4fa98e1 (1-st stage)
+=======
+>>>>>>> 370843b (1-st stage)
+=======
+>>>>>>> 9e70c97 (1-st stage)
+=======
+      <change beforePath="$PROJECT_DIR$/coffeemachine/coffeemachine.py" beforeDir="false" afterPath="$PROJECT_DIR$/coffeemachine/coffeemachine.py" afterDir="false" />
+>>>>>>> 4fa98e1 (1-st stage)
+=======
+>>>>>>> 370843b (1-st stage)
+=======
+      <change beforePath="$PROJECT_DIR$/coffeemachine/coffeemachine.py" beforeDir="false" afterPath="$PROJECT_DIR$/coffeemachine/coffeemachine.py" afterDir="false" />
+>>>>>>> 4fa98e1 (1-st stage)
+=======
+>>>>>>> 370843b (1-st stage)
+=======
+      <change beforePath="$PROJECT_DIR$/coffeemachine/coffeemachine.py" beforeDir="false" afterPath="$PROJECT_DIR$/coffeemachine/coffeemachine.py" afterDir="false" />
+>>>>>>> 4fa98e1 (1-st stage)
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="dev" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2VNlNy6SNXLlFq7YmSuBeWt4UlH" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 370843b (1-st stage)
+=======
+>>>>>>> 9e70c97 (1-st stage)
+=======
+>>>>>>> 370843b (1-st stage)
+=======
+>>>>>>> 370843b (1-st stage)
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "git-widget-placeholder": "feature/coffeemachine",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "advanced.settings"
+  }
+}]]></component>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 4fa98e1 (1-st stage)
+=======
+>>>>>>> 4fa98e1 (1-st stage)
+=======
+=======
+=======
+>>>>>>> 4fa98e1 (1-st stage)
+>>>>>>> 9e70c97 (1-st stage)
+=======
+>>>>>>> 4fa98e1 (1-st stage)
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;git-widget-placeholder&quot;: &quot;feature/coffeemachine&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+  }
+}</component>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 4fa98e1 (1-st stage)
+=======
+>>>>>>> 370843b (1-st stage)
+=======
+=======
+>>>>>>> 9e70c97 (1-st stage)
+>>>>>>> 4fa98e1 (1-st stage)
+=======
+>>>>>>> 370843b (1-st stage)
+=======
+>>>>>>> 4fa98e1 (1-st stage)
+=======
+>>>>>>> 370843b (1-st stage)
+=======
+>>>>>>> 4fa98e1 (1-st stage)
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="56dc1464-23c7-4c1f-8c34-a250d31f60d3" name="Changes" comment="" />
+      <created>1694684382889</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1694684382889</updated>
+      <workItem from="1694684383965" duration="2870000" />
+      <workItem from="1695632459309" duration="1816000" />
+      <workItem from="1695637034853" duration="1713000" />
+      <workItem from="1695638798171" duration="357000" />
+      <workItem from="1695641202464" duration="345000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="dev" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 9e70c97 (1-st stage)
+    <SUITE FILE_PATH="coverage/DICT_python_education_Smirnow_Anton$coffeemachine.coverage" NAME="coffeemachine Coverage Results" MODIFIED="1701781763727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/coffeemachine" />
+=======
+    <SUITE FILE_PATH="coverage/DICT_python_education_Smirnow_Anton$coffeemachine.coverage" NAME="coffeemachine Coverage Results" MODIFIED="1701775944501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/coffeemachine" />
+>>>>>>> 4fa98e1 (1-st stage)
+=======
+    <SUITE FILE_PATH="coverage/DICT_python_education_Smirnow_Anton$coffeemachine.coverage" NAME="coffeemachine Coverage Results" MODIFIED="1701781763727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/coffeemachine" />
+>>>>>>> 370843b (1-st stage)
+=======
+    <SUITE FILE_PATH="coverage/DICT_python_education_Smirnow_Anton$coffeemachine.coverage" NAME="coffeemachine Coverage Results" MODIFIED="1701775944501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/coffeemachine" />
+>>>>>>> 4fa98e1 (1-st stage)
+<<<<<<< HEAD
+=======
+    <SUITE FILE_PATH="coverage/DICT_python_education_Smirnow_Anton$coffeemachine.coverage" NAME="coffeemachine Coverage Results" MODIFIED="1701781763727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/coffeemachine" />
+>>>>>>> 370843b (1-st stage)
+=======
+    <SUITE FILE_PATH="coverage/DICT_python_education_Smirnow_Anton$coffeemachine.coverage" NAME="coffeemachine Coverage Results" MODIFIED="1701775944501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/coffeemachine" />
+>>>>>>> 4fa98e1 (1-st stage)
+=======
+>>>>>>> 9e70c97 (1-st stage)
+=======
+    <SUITE FILE_PATH="coverage/DICT_python_education_Smirnow_Anton$coffeemachine.coverage" NAME="coffeemachine Coverage Results" MODIFIED="1701781763727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/coffeemachine" />
+>>>>>>> 370843b (1-st stage)
+=======
+    <SUITE FILE_PATH="coverage/DICT_python_education_Smirnow_Anton$coffeemachine.coverage" NAME="coffeemachine Coverage Results" MODIFIED="1701775944501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/coffeemachine" />
+>>>>>>> 4fa98e1 (1-st stage)
+    <SUITE FILE_PATH="coverage/DICT_python_education_Smirnow_Anton$tictactoe.coverage" NAME="tictactoe Coverage Results" MODIFIED="1699962919738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tictactoe" />
+    <SUITE FILE_PATH="coverage/DICT_python_education_Smirnow_Anton$pencilgame.coverage" NAME="pencilgame Coverage Results" MODIFIED="1701180002762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pencilgame" />
+    <SUITE FILE_PATH="coverage/TestProject$test.coverage" NAME="test Coverage Results" MODIFIED="1695633870180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TestProject$chatbot.coverage" NAME="chatbot Coverage Results" MODIFIED="1696497792428" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ChatBot" />
+    <SUITE FILE_PATH="coverage/DICT_python_education_Smirnow_Anton$dinnerparty.coverage" NAME="dinnerparty Coverage Results" MODIFIED="1699263524955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dinnerparty" />
+    <SUITE FILE_PATH="coverage/DICT_python_education_Smirnow_Anton$hangman.coverage" NAME="hangman Coverage Results" MODIFIED="1698300885549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hangman" />
+  </component>
+</project>
