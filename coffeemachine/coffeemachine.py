@@ -106,4 +106,3 @@ coffee_machine = CoffeeMachine()
 while True:
     action = input("Write action (buy, fill, take, remaining, exit):\n> ")
     coffee_machine.process_action(action)
-
