@@ -42,7 +42,10 @@ class CoffeeMachineSimulator:
             self.money_earned += recipe["cost"]
             print("Coffee is ready!")
         else:
-            print("Not enough resources to make coffee. Please fill the machine.")
+            if self.disposable_cups_available == 0:
+                print("Sorry, not enough disposable cups!")
+            else:
+                print("Sorry, not enough resources to make coffee. Please fill the machine.")
 
     def fill_machine(self):
         self.water_available += int(input("Write how many ml of water you want to add:\n"))
@@ -56,22 +59,25 @@ class CoffeeMachineSimulator:
 
     def process_action(self, action):
         if action == "buy":
-            choice = int(input("What do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino:\n"))
-            self.buy_coffee(choice)
+            while True:
+                choice = input("What do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino, back – to main menu:\n")
+                if choice == "back":
+                    break
+                else:
+                    choice = int(choice)
+                    self.buy_coffee(choice)
         elif action == "fill":
             self.fill_machine()
         elif action == "take":
             self.take_money()
+        elif action == "remaining":
+            self.display_resources()
+        elif action == "exit":
+            exit()
 
 # Створюємо об'єкт для симулятора кавомашини
 coffee_machine = CoffeeMachineSimulator()
 
-# Виводимо початковий стан ресурсів
-coffee_machine.display_resources()
-
-# Отримуємо від користувача дію (купівля, поповнення або вилучення грошей) і виконуємо відповідну дію
-action = input("\nWrite action (buy, fill, take):\n")
-coffee_machine.process_action(action)
-
-# Виводимо стан ресурсів після виконання дії
-coffee_machine.display_resources()
+while True:
+    # Отримуємо від користувача дію (купівля, поповнення, вилучення грошей, відображення залишків або вихід) і виконуємо відповідну дію
+    action = input("\nWrite action (buy, fill, take, remaining, exit):\n")
