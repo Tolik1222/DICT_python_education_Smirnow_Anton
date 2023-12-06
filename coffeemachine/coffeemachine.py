@@ -1,54 +1,77 @@
 class CoffeeMachineSimulator:
     def __init__(self):
-        self.water_available = 0
-        self.milk_available = 0
-        self.coffee_beans_available = 0
-        self.water_per_cup = 200  # мл
-        self.milk_per_cup = 50  # мл
-        self.coffee_beans_per_cup = 15  # г
+        self.water_available = 400  # мл
+        self.milk_available = 540   # мл
+        self.coffee_beans_available = 120  # г
+        self.disposable_cups_available = 9
+        self.money_earned = 550  # грн
 
-    def check_resources(self, cups_needed):
-        water_needed = cups_needed * self.water_per_cup
-        milk_needed = cups_needed * self.milk_per_cup
-        coffee_beans_needed = cups_needed * self.coffee_beans_per_cup
+        self.espresso_recipe = {"water": 250, "coffee_beans": 16, "cost": 4}
+        self.latte_recipe = {"water": 350, "milk": 75, "coffee_beans": 20, "cost": 7}
+        self.cappuccino_recipe = {"water": 200, "milk": 100, "coffee_beans": 12, "cost": 6}
 
-        if self.water_available >= water_needed and self.milk_available >= milk_needed and self.coffee_beans_available >= coffee_beans_needed:
-            extra_cups = min(
-                self.water_available // self.water_per_cup,
-                self.milk_available // self.milk_per_cup,
-                self.coffee_beans_available // self.coffee_beans_per_cup
-            )
+    def display_resources(self):
+        print("\nThe coffee machine has:")
+        print(f"{self.water_available} of water")
+        print(f"{self.milk_available} of milk")
+        print(f"{self.coffee_beans_available} of coffee beans")
+        print(f"{self.disposable_cups_available} of disposable cups")
+        print(f"{self.money_earned} of money")
 
-            if extra_cups > 0:
-                print(f"Yes, I can make that amount of coffee (and even {extra_cups} more than that)")
-            else:
-                print("Yes, I can make that amount of coffee")
+    def buy_coffee(self, choice):
+        if choice == 1:  # Espresso
+            recipe = self.espresso_recipe
+        elif choice == 2:  # Latte
+            recipe = self.latte_recipe
+        elif choice == 3:  # Cappuccino
+            recipe = self.cappuccino_recipe
         else:
-            max_cups = min(
-                self.water_available // self.water_per_cup,
-                self.milk_available // self.milk_per_cup,
-                self.coffee_beans_available // self.coffee_beans_per_cup
-            )
-            print(f"No, I can make only {max_cups} cups of coffee")
+            return
 
-    def get_resources_from_user(self):
-        self.water_available = int(input("Write how many ml of water the coffee machine has:\n"))
-        self.milk_available = int(input("Write how many ml of milk the coffee machine has:\n"))
-        self.coffee_beans_available = int(input("Write how many grams of coffee beans the coffee machine has:\n"))
+        if (
+            self.water_available >= recipe["water"]
+            and self.milk_available >= recipe.get("milk", 0)
+            and self.coffee_beans_available >= recipe["coffee_beans"]
+            and self.disposable_cups_available >= 1
+        ):
+            print("I have enough resources to make your coffee. Making coffee...")
+            self.water_available -= recipe["water"]
+            self.milk_available -= recipe.get("milk", 0)
+            self.coffee_beans_available -= recipe["coffee_beans"]
+            self.disposable_cups_available -= 1
+            self.money_earned += recipe["cost"]
+            print("Coffee is ready!")
+        else:
+            print("Not enough resources to make coffee. Please fill the machine.")
 
-    def get_cups_needed_from_user(self):
-        cups_needed = int(input("Write how many cups of coffee you will need:\n"))
-        return cups_needed
+    def fill_machine(self):
+        self.water_available += int(input("Write how many ml of water you want to add:\n"))
+        self.milk_available += int(input("Write how many ml of milk you want to add:\n"))
+        self.coffee_beans_available += int(input("Write how many grams of coffee beans you want to add:\n"))
+        self.disposable_cups_available += int(input("Write how many disposable coffee cups you want to add:\n"))
 
+    def take_money(self):
+        print(f"I gave you {self.money_earned} money")
+        self.money_earned = 0
+
+    def process_action(self, action):
+        if action == "buy":
+            choice = int(input("What do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino:\n"))
+            self.buy_coffee(choice)
+        elif action == "fill":
+            self.fill_machine()
+        elif action == "take":
+            self.take_money()
 
 # Створюємо об'єкт для симулятора кавомашини
 coffee_machine = CoffeeMachineSimulator()
 
-# Отримуємо від користувача кількість інгредієнтів
-coffee_machine.get_resources_from_user()
+# Виводимо початковий стан ресурсів
+coffee_machine.display_resources()
 
-# Отримуємо від користувача кількість чашок кави, яку він хоче приготувати
-cups_needed = coffee_machine.get_cups_needed_from_user()
+# Отримуємо від користувача дію (купівля, поповнення або вилучення грошей) і виконуємо відповідну дію
+action = input("\nWrite action (buy, fill, take):\n")
+coffee_machine.process_action(action)
 
-# Перевірка наявності достатньої кількості інгредієнтів для приготування кави
-coffee_machine.check_resources(cups_needed)
+# Виводимо стан ресурсів після виконання дії
+coffee_machine.display_resources()
