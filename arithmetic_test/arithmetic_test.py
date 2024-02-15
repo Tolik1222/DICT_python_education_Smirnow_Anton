@@ -18,24 +18,28 @@ def generate_question():
     return question, answer
 
 def main():
-    while True:
+    correct_answers = 0
+    for _ in range(5):
         # Генеруємо питання
         question, correct_answer = generate_question()
         print(question)
-        user_answer = input("> ")
-        # Перевіряємо відповідь
-        try:
-            user_answer = int(user_answer)
-            if user_answer == correct_answer:
-                print("Right!")
-            else:
-                print("Wrong!")
-        except ValueError:
-            print("Please enter a valid integer.")
+        while True:
+            user_answer = input("> ")
+            # Перевіряємо формат відповіді
+            try:
+                user_answer = int(user_answer)
+                break  # Вихід з циклу, якщо відповідь у правильному форматі
+            except ValueError:
+                print("Incorrect format. Please enter a valid integer.")
 
-        play_again = input("Do you want to play again? (yes/no): ").lower()
-        if play_again != 'yes':
-            break
+        # Перевіряємо відповідь
+        if user_answer == correct_answer:
+            print("Right!")
+            correct_answers += 1
+        else:
+            print("Wrong!")
+
+    print(f"Your mark is {correct_answers}/5.")
 
 if __name__ == "__main__":
     main()
