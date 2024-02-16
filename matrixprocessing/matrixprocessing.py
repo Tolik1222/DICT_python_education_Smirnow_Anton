@@ -17,7 +17,7 @@ def read_matrix(rows, cols):
 
 def add_matrices(matrix_a, matrix_b):
     if len(matrix_a) != len(matrix_b) or len(matrix_a[0]) != len(matrix_b[0]):
-        return None  # Error, unable to add matrices
+        return None
     result = []
     for i in range(len(matrix_a)):
         result.append([a + b for a, b in zip(matrix_a[i], matrix_b[i])])
@@ -33,7 +33,7 @@ def multiply_matrix_by_constant(matrix, constant):
 
 def multiply_matrices(matrix_a, matrix_b):
     if len(matrix_a[0]) != len(matrix_b):
-        return None  # Error, cannot multiply matrices
+        return None
     result = []
     for i in range(len(matrix_a)):
         row = []
@@ -45,24 +45,23 @@ def multiply_matrices(matrix_a, matrix_b):
 
 
 def transpose_matrix(matrix, transpose_type):
-    if transpose_type == 1:  # Main diagonal
+    if transpose_type == 1:
         return [list(row) for row in zip(*matrix)]
-    elif transpose_type == 2:  # Side diagonal
+    elif transpose_type == 2:
         return [row[::-1] for row in matrix[::-1]]
-    elif transpose_type == 3:  # Vertical line
+    elif transpose_type == 3:
         return [row[::-1] for row in matrix]
-    elif transpose_type == 4:  # Horizontal line
+    elif transpose_type == 4:
         return matrix[::-1]
     else:
-        return None  # Wrong choice
+        return None
 
 
 def calculate_determinant(matrix):
     if len(matrix) != len(matrix[0]):
-        return None  # The determinant can be calculated only for square matrices
+        return None
     n = len(matrix)
 
-    # Base case for a 2x2 matrix
     if n == 2:
         return matrix[0][0] * matrix[1][1] - matrix[0][1] * matrix[1][0]
 
@@ -78,10 +77,9 @@ def calculate_determinant(matrix):
 def inverse_matrix(matrix):
     determinant = calculate_determinant(matrix)
     if determinant == 0:
-        return None  # The matrix does not have an inverse
+        return None
     n = len(matrix)
 
-    # Calculation of algebraic auxiliaries (auxiliary matrices)
     cofactors = []
     for i in range(n):
         cofactor_row = []
@@ -90,7 +88,6 @@ def inverse_matrix(matrix):
             cofactor_row.append(((-1) ** (i + j)) * calculate_determinant(minor))
         cofactors.append(cofactor_row)
 
-    # Transposition of the auxiliary matrix and division by the determinant
     inverse = [[round(cofactors[j][i] / determinant, 2) for i in range(n)] for j in range(n)]
     return inverse
 
