@@ -5,6 +5,7 @@ import random  # Importing the random module for generating computer choices.
 import os  # Importing the os module for file operations.
 import string  # Importing the string module for string-related operations.
 
+
 # Function to get user options for the game.
 
 
@@ -33,17 +34,18 @@ def computer_choice(game_options):
 
 
 def determine_winner(user_choice, comp_choice, game_options):
-
     half_len = len(game_options) // 2
     index_user = game_options.index(user_choice)
     index_comp = game_options.index(comp_choice)
     if user_choice == comp_choice:
         return f"There is a draw ({comp_choice})", 50
-    elif index_user < index_comp:
-        if index_comp - index_user <= half_len:
-            return f"Sorry, but the computer chose {comp_choice}", 0
-        else:
-            return f"Well done. The computer chose {comp_choice} and failed", 100
+    elif index_user == index_comp:
+        return f"There is a draw ({comp_choice})", 50
+    elif index_user < index_comp <= index_user + half_len:
+        return f"Well done. The computer chose {comp_choice} and failed", 100
+    else:
+        return f"Sorry, but the computer chose {comp_choice}", 0
+
 
 # Function to get user input during the game.
 
@@ -80,7 +82,6 @@ def update_rating(user_name, user_points):
     with open('rating.txt', 'w') as rating_file:
         for name, rating in user_ratings.items():
             rating_file.write(f"{name} {rating}\n")
-
 
 if not os.path.isfile('rating.txt'):
     with open('rating.txt', 'w') as new_rating_file:
