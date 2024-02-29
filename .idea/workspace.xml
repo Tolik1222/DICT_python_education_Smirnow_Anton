@@ -35,16 +35,24 @@
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 5
 }</component>
+<<<<<<< HEAD
   <component name="ProjectId" id="2cwyJSfqPYsRBg56e9oJyz2wzVw" />
 =======
 >>>>>>> 36459ae (1-st stage)
+=======
+>>>>>>> 4348d5b0581b0da11b231de0593a25b734b41fbb
 =======
   <component name="ProjectColorInfo"><![CDATA[{
   "customColor": "",
   "associatedIndex": 5
 }]]></component>
+<<<<<<< HEAD
   <component name="ProjectId" id="2cwyJSfqPYsRBg56e9oJyz2wzVw" />
 >>>>>>> 4f0974a (1-st stage)
+=======
+>>>>>>> 4f0974a789a1f7a108b4099bc2636202341146ac
+  <component name="ProjectId" id="2cwyJSfqPYsRBg56e9oJyz2wzVw" />
+>>>>>>> 4348d5b0581b0da11b231de0593a25b734b41fbb
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -53,6 +61,9 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4348d5b0581b0da11b231de0593a25b734b41fbb
     &quot;Python.chatbot.executor&quot;: &quot;Run&quot;,
     &quot;Python.hangman.executor&quot;: &quot;Run&quot;,
     &quot;Python.rock-paper-scissors.executor&quot;: &quot;Run&quot;,
@@ -69,6 +80,29 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+<<<<<<< HEAD
+=======
+=======
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.chatbot.executor": "Run",
+    "Python.hangman.executor": "Run",
+    "Python.rock-paper-scissors.executor": "Run",
+    "Python.zoo.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "feature/rock-paper-scissors",
+    "last_opened_file_path": "D:/PycharmProjects",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+>>>>>>> 4f0974a789a1f7a108b4099bc2636202341146ac
+>>>>>>> 4348d5b0581b0da11b231de0593a25b734b41fbb
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -85,13 +119,21 @@
       <option name="presentableId" value="Default" />
       <updated>1709036864913</updated>
       <workItem from="1709036867485" duration="5468000" />
+<<<<<<< HEAD
       <workItem from="1709201385720" duration="1706000" />
+=======
+<<<<<<< HEAD
+      <workItem from="1709201385720" duration="1706000" />
+=======
+>>>>>>> 4f0974a789a1f7a108b4099bc2636202341146ac
+>>>>>>> 4348d5b0581b0da11b231de0593a25b734b41fbb
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+<<<<<<< HEAD
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/GitHub$chatbot.coverage" NAME="chatbot Coverage Results" MODIFIED="1709036927298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ChatBot" />
     <SUITE FILE_PATH="coverage/GitHub$rock_paper_scissors.coverage" NAME="rock-paper-scissors Coverage Results" MODIFIED="1709203452491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rock-paper-scissors" />
@@ -145,6 +187,15 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/GitHub$chatbot.coverage" NAME="chatbot Coverage Results" MODIFIED="1709036927298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ChatBot" />
     <SUITE FILE_PATH="coverage/GitHub$rock_paper_scissors.coverage" NAME="rock-paper-scissors Coverage Results" MODIFIED="1709043319389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rock-paper-scissors" />
+=======
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/GitHub$chatbot.coverage" NAME="chatbot Coverage Results" MODIFIED="1709036927298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ChatBot" />
+<<<<<<< HEAD
+    <SUITE FILE_PATH="coverage/GitHub$rock_paper_scissors.coverage" NAME="rock-paper-scissors Coverage Results" MODIFIED="1709203452491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rock-paper-scissors" />
+=======
+    <SUITE FILE_PATH="coverage/GitHub$rock_paper_scissors.coverage" NAME="rock-paper-scissors Coverage Results" MODIFIED="1709043319389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rock-paper-scissors" />
+>>>>>>> 4f0974a789a1f7a108b4099bc2636202341146ac
+>>>>>>> 4348d5b0581b0da11b231de0593a25b734b41fbb
   </component>
 >>>>>>> 4f0974a (1-st stage)
 </project>
